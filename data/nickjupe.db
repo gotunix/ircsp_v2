@@ -1,0 +1,8 @@
+; NJUPE DB file
+; Last Saved: 1241681672
+NickServ:/msg N HELP:2:
+ChanServ:/msg X HELP:1:
+OperServ:/msg UWorld HELP:4:
+MemoServ:No Memo Services:0:
+HelpServ:RTFM 101:0:
+W:/msg X HELP:1:

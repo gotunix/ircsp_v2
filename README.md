@@ -1,2 +1,2 @@
 # ircsp_v2
-IRC Services Package [Version 2.x.x]
+Internet Relay Chat Services Package (Version 2.x)

@@ -1,0 +1,98 @@
+/*
+===========================================================================
+Copyright (C) 1998 - 2009 GOTUNIX Networks.   All rights reserved.
+
+
+This file is part of the IRCSP [Internet Relay Chat Services Package]
+source code.
+
+
+IRCSP source code is free software;  you can redistribute it and/or
+modify it under the terms of the GNU General Public License as published
+by the Free Software Foundation;  either version 2 of the License,
+or (at your option) any later version.
+
+IRCSP source code is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTaBILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with IRCSP;  if not write to the Free Software Foundation, Inc.,
+51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+===========================================================================
+*/
+//------------------------------------------------------------------------
+// $
+// : 1.1 $
+// : jovens $
+// : 2009/04/05 23:01:25 $
+// : version.sh,v $
+// Revision 1.1  2009/04/05 23:01:25  jovens
+// *** empty log message ***
+//
+// Revision 1.4  2009/04/05 11:52:22  jovens
+// *** empty log message ***
+//
+// Revision 1.3  2009/04/05 09:27:33  jovens
+// Files Added
+//
+// source/numeric.c
+// include/numeric.h
+//
+// Revision 1.2  2009/04/05 03:37:41  jovens
+// *** empty log message ***
+//
+// Revision 1.1  2009/04/05 02:15:48  jovens
+// *** empty log message ***
+//
+// Revision 1.1.1.1  2009/04/05 01:37:02  jovens
+// Initial Import
+//
+// Revision 1.1.1.1  2009/04/05 01:35:36  jovens
+// Initial Import
+//
+//
+//------------------------------------------------------------------------
+
+
+#include "version.h"
+
+#define BUILD   "297"
+
+const char program_name[] = "IRCSP";
+const char code_name[] = "Pheonix";
+const char version_number[] = "1.0.02";
+const char version_build[] = "build #" BUILD ", compiled Mon Apr 13 06:24:17 CDT 2009";
+
+
+/* Look folks, please leave this INFO reply intact and unchanged.  If you do
+ * have the urge to mention yourself, please simply add your name to the list.
+ * The other people listed below have just as much right, if not more, to be
+ * mentioned.  Leave everything else untouched.  Thanks.
+ */
+
+const char *info_text[] = {
+	"IRCSP [Internet Relay Chat Service Package]",
+	"Copyright (C) 1998 - 2009 GOTUNIX Networks",
+	"           All rights reserved.",
+	" ",
+	"IRCSP is developed by Justin Ovens <jovens@gotunix.net>.",
+	"Parts written by Anthony Soriano and others.",
+	"IRCSP may be freely redistributed under the GNU",
+	"General Public License, version 2 or later.",
+	" ",
+	"Many people have contributed to the ongoing development of",
+	"IRCSP Particularly noteworthy contributors include:",
+	"    Matt Holmes",
+	"    Jim Johnson",
+	"    Chris Olsen",
+	"    Carsten Haitzler",
+	"A full list of contributors and their contributions can be",
+	"found in the AUTHORS file included in the IRCSP",
+	"distribution archive.  Many thanks to all of them!",
+	" ",
+	"For more information and a list of distribution sites,",
+	"please visit: http://justinovens.info/?Project=IRCSP",
+	0
+};

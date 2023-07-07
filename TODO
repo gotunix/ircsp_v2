@@ -1,0 +1,56 @@
+addChannel () 			-	When a channel is first made we only need to 
+								capture the name and created time.   flags, 
+								modes, key, limit, etc. we can set later.
+
+delChannel ()			-	Create me!
+
+
+uw_adminlist ()		-	add if IsLoginAdmin () to display weather
+								the admin is logged in or not.
+
+								@we could also have it include weather
+								the user is online or not aswell (maybe)
+					
+
+
+ircsp_loadConfig()	-	add ircd type
+
+
+status_structure		-	add status structure to keep track of
+								global numUsers, numOpers, numChannels,
+								numGlines, numBans, numPermBans,
+								numAdmins, numServers, etc
+
+p_nick()					-	Add auto gline for clones.
+
+p_nick()					-	Check if a user is glined upon
+								connect, if they are, re-add the
+								gline.
+
+
+add log.c				-	Add command logger.
+
+
+|-							-	Add a routine to notice opers/admins
+							 	when command is issued through
+								operserv with config options
+
+								1) Send /notice to all opers
+								2) send notice to oper channel
+								3) send wallops
+
+
+ircsp_debug()			-	add config option for debug_irc
+								if this is on have it notice
+								the debug channel.
+
+
+ircsp_notice()			-	create this for other warning,
+								notices, etc.  Maybe give it its
+								own channel #Uworld.Notice
+
+ircsp_warning()		-	create this for warnings that could potently
+								cause ircsp to crash?  #Uworld.Warning
+
+
+fix getnumeric()		-	fix getnumeric() for NICK JUPES

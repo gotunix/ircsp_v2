@@ -1,0 +1,13 @@
+General HELP on ^C
+ 
+Use: /msg ^C HELP [topic] to get help on a given topic.
+ 
+ 
+@0
+*** REGISTER     -    Register your channel
+*** AUTH         -    Authenticate with ^C
+*** VERSION      -    Display IRCSP version information
+*** HELP         -    Shows this screen
+ 
+ 
+End of HELP

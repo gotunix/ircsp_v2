@@ -1,0 +1,37 @@
+; UWorld Command Level DB [data/uwcmd.db]
+; Last Saved on: 1241681672
+version:0:0:
+help:0:0:
+operlist:0:0:
+verify:0:0:
+uptime:1:0:
+servlist:1:0:
+nicklist:1:0:
+hostlist:1:0:
+adminlist:1:0:
+glinelist:1:0:
+chanlist:1:0:
+auth:1:0:
+deauth:1:0:
+gline:1:0:
+remgline:1:0:
+whoison:1:0:
+banlist:1:0:
+xlate:1:0:
+whois:1:0:
+clearbans:100:0:
+opermsg:100:0:
+clearops:100:0:
+opcom:100:0:
+clearmodes:100:0:
+scan:100:0:
+mode:100:0:
+masskill:900:0:
+save:1000:0:
+die:1000:0:
+cmdlist:1000:0:
+disablecmd:1000:0:
+enablecmd:1000:0:
+restart:1000:0:
+rehash:1000:0:
+chlevel:1000:0:
