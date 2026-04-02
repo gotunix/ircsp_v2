@@ -1,0 +1,14 @@
+General HELP on ^N
+ 
+Use: /msg ^N HELP [topic] to get help on a given topic.
+ 
+@1
+*** DROP         -    Drop your nickname 
+@0
+*** REGISTER     -    Register your nickname
+*** AUTH         -    Authenticate with ^N
+*** VERSION      -    Display IRCSP version information
+*** HELP         -    Shows this screen
+ 
+ 
+End of HELP
